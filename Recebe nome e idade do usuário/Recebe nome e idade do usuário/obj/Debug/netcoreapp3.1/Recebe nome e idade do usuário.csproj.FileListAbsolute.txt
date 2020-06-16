@@ -1,0 +1,12 @@
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.exe
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.deps.json
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.runtimeconfig.json
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.runtimeconfig.dev.json
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.dll
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\bin\Debug\netcoreapp3.1\Recebe nome e idade do usuário.pdb
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.AssemblyInfoInputs.cache
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.AssemblyInfo.cs
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.csproj.CoreCompileInputs.cache
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.dll
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.pdb
+C:\Users\Kayky\Desktop\C# testes\Recebe nome e idade do usuário\Recebe nome e idade do usuário\obj\Debug\netcoreapp3.1\Recebe nome e idade do usuário.genruntimeconfig.cache
