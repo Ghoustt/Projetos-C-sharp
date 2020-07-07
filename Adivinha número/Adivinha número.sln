@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adivinha número", "Adivinha número\Adivinha número.csproj", "{83082625-36F8-4AC1-9542-910F14EE22DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adivinha número", "Adivinha número\Adivinha número.csproj", "{D0CCC5C7-0A3D-45E4-AF33-368F0E9827CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83082625-36F8-4AC1-9542-910F14EE22DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83082625-36F8-4AC1-9542-910F14EE22DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83082625-36F8-4AC1-9542-910F14EE22DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83082625-36F8-4AC1-9542-910F14EE22DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CCC5C7-0A3D-45E4-AF33-368F0E9827CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CCC5C7-0A3D-45E4-AF33-368F0E9827CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CCC5C7-0A3D-45E4-AF33-368F0E9827CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CCC5C7-0A3D-45E4-AF33-368F0E9827CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DCAF9371-DE79-4106-8745-44D865850986}
+		SolutionGuid = {DB6182FA-0634-47FA-A692-4A7F98AE13EA}
 	EndGlobalSection
 EndGlobal

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercício do muro", "Exercício do muro\Exercício do muro.csproj", "{94AE1A03-2907-49EB-B0F1-48C009396C43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercício do muro", "Exercício do muro\Exercício do muro.csproj", "{851A0E79-8B3B-480B-965C-703FEE32951A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94AE1A03-2907-49EB-B0F1-48C009396C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94AE1A03-2907-49EB-B0F1-48C009396C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94AE1A03-2907-49EB-B0F1-48C009396C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94AE1A03-2907-49EB-B0F1-48C009396C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851A0E79-8B3B-480B-965C-703FEE32951A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851A0E79-8B3B-480B-965C-703FEE32951A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851A0E79-8B3B-480B-965C-703FEE32951A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851A0E79-8B3B-480B-965C-703FEE32951A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4FC415D2-5CEE-40F5-A01C-9FF00C5CB9A7}
+		SolutionGuid = {91F19734-D308-4662-B1B7-A5AE1C3B4B3A}
 	EndGlobalSection
 EndGlobal
