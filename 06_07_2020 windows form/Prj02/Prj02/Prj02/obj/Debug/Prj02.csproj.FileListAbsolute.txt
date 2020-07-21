@@ -1,0 +1,10 @@
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\bin\Debug\Prj02.exe.config
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\bin\Debug\Prj02.exe
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\bin\Debug\Prj02.pdb
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.csprojAssemblyReference.cache
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.Form1.resources
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.Properties.Resources.resources
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.csproj.GenerateResource.cache
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.csproj.CoreCompileInputs.cache
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.exe
+C:\Users\Kayky\Desktop\TP(C#)\2-06_07_2020 windows form\Prj02\Prj02\Prj02\obj\Debug\Prj02.pdb
