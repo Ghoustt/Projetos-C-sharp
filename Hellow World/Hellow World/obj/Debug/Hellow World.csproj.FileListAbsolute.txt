@@ -1,6 +1,0 @@
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\bin\Debug\Hellow World.exe.config
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\bin\Debug\Hellow World.exe
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\bin\Debug\Hellow World.pdb
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\obj\Debug\Hellow World.csproj.CoreCompileInputs.cache
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\obj\Debug\Hellow World.exe
-C:\Users\Kayky\Desktop\TP(C#)\Hellow World\Hellow World\obj\Debug\Hellow World.pdb

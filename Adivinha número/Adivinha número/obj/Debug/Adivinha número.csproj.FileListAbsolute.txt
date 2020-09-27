@@ -1,7 +1,0 @@
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\bin\Debug\Adivinha número.exe.config
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\bin\Debug\Adivinha número.exe
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\bin\Debug\Adivinha número.pdb
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\obj\Debug\Adivinha número.csprojAssemblyReference.cache
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\obj\Debug\Adivinha número.csproj.CoreCompileInputs.cache
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\obj\Debug\Adivinha número.exe
-C:\Users\Kayky\Desktop\TP(C#)\Adivinha número\Adivinha número\obj\Debug\Adivinha número.pdb
