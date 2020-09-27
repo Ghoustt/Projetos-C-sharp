@@ -1,0 +1,11 @@
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\bin\Debug\netcoreapp2.1\Atendimento.deps.json
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\bin\Debug\netcoreapp2.1\Atendimento.runtimeconfig.json
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\bin\Debug\netcoreapp2.1\Atendimento.runtimeconfig.dev.json
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\bin\Debug\netcoreapp2.1\Atendimento.dll
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\bin\Debug\netcoreapp2.1\Atendimento.pdb
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.csprojAssemblyReference.cache
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.AssemblyInfoInputs.cache
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.AssemblyInfo.cs
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.dll
+C:\Users\Kayky\Desktop\DS\Exercício\Atendimento\Atendimento\obj\Debug\netcoreapp2.1\Atendimento.pdb

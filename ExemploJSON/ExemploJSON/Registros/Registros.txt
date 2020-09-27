@@ -1,0 +1,2 @@
+{"Codigo":13325,"Descricao":"Banco de Madeira","UnidadeDeMedida":"Kg","Peso":50,"PrecoDeCusto":30.00,"PrecoDeVenda":50.00,"MargemDeLucro":100.00,"Estoque":10,"Ativo":true}
+{"Codigo":13345,"Descricao":"Mala","UnidadeDeMedida":"Kg","Peso":20,"PrecoDeCusto":40.00,"PrecoDeVenda":60.00,"MargemDeLucro":80.00,"Estoque":40,"Ativo":false}

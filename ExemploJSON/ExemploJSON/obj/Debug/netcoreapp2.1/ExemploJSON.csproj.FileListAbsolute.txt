@@ -1,0 +1,11 @@
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\bin\Debug\netcoreapp2.1\ExemploJSON.deps.json
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\bin\Debug\netcoreapp2.1\ExemploJSON.runtimeconfig.json
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\bin\Debug\netcoreapp2.1\ExemploJSON.runtimeconfig.dev.json
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\bin\Debug\netcoreapp2.1\ExemploJSON.dll
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\bin\Debug\netcoreapp2.1\ExemploJSON.pdb
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.csproj.CoreCompileInputs.cache
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.AssemblyInfoInputs.cache
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.AssemblyInfo.cs
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.dll
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.pdb
+C:\Users\Kayky\Desktop\DS\Exercício\ExemploJSON\ExemploJSON\obj\Debug\netcoreapp2.1\ExemploJSON.csprojAssemblyReference.cache
