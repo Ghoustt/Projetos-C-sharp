@@ -87,6 +87,7 @@ namespace TestandoMVC.Controllers
                 return NotFound();
             }
             return View(clienteModel);
+
         }
 
         // POST: ClienteModels/Edit/5
@@ -106,7 +107,10 @@ namespace TestandoMVC.Controllers
 
                 try
                 {
+                    
                     _context.Update(clienteModel);
+                    FormataTexto.FormataMaiusculo(clienteModel.Nome);
+                    FormataTexto.FormataMinusculo(clienteModel.Email);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
