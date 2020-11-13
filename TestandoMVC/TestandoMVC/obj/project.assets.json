@@ -13030,11 +13030,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kayky\\Desktop\\DS\\Meus testes\\TestandoMVC\\TestandoMVC\\TestandoMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Kayky\\Desktop\\Projetos-C-sharp\\TestandoMVC\\TestandoMVC\\TestandoMVC.csproj",
       "projectName": "TestandoMVC",
-      "projectPath": "C:\\Users\\Kayky\\Desktop\\DS\\Meus testes\\TestandoMVC\\TestandoMVC\\TestandoMVC.csproj",
+      "projectPath": "C:\\Users\\Kayky\\Desktop\\Projetos-C-sharp\\TestandoMVC\\TestandoMVC\\TestandoMVC.csproj",
       "packagesPath": "C:\\Users\\Kayky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kayky\\Desktop\\DS\\Meus testes\\TestandoMVC\\TestandoMVC\\obj\\",
+      "outputPath": "C:\\Users\\Kayky\\Desktop\\Projetos-C-sharp\\TestandoMVC\\TestandoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

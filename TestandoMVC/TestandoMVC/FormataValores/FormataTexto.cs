@@ -9,11 +9,11 @@ namespace TestandoMVC.FormataValores
     {
         public static string FormataMaiusculo(string valor)
         {
-            return valor = valor.ToUpper().Trim();
+            return valor.ToUpper().Trim();
         }
         public static string FormataMinusculo(string valor)
         {
-            return valor = valor.ToLower().Trim();
+            return valor.ToLower().Trim();
         }
     }
 }
