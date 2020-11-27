@@ -19,12 +19,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Rg" class="control-label"></label>
-                <input asp-for="Rg" class="form-control" />
+                <input asp-for="Rg" maxlength="13" data-mask="00.000.000-00" class="form-control" />
                 <span asp-validation-for="Rg" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Cpf" class="control-label"></label>
-                <input asp-for="Cpf" class="form-control" />
+                <input asp-for="Cpf" maxlength="14" data-mask="000.000.000-00" class="form-control" />
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -48,6 +48,9 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="~/lib/jquery-mask-plugin/jquery.mask.js" type="text/javascript" asp-append-version="true"></script>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
