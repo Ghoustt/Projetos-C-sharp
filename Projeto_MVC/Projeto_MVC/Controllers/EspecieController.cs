@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projeto_MVC.Data;
+using Projeto_MVC.FormataValores;
 using Projeto_MVC.Models;
 
 namespace Projeto_MVC.Controllers
@@ -58,6 +59,8 @@ namespace Projeto_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                especieModel.Nome = FormatarTexto.FormataMaiusculo(especieModel.Nome);
+
                 _context.Add(especieModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,6 +100,7 @@ namespace Projeto_MVC.Controllers
             {
                 try
                 {
+                    especieModel.Nome = FormatarTexto.FormataMaiusculo(especieModel.Nome);
                     _context.Update(especieModel);
                     await _context.SaveChangesAsync();
                 }

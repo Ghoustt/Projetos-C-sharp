@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projeto_MVC.Data;
+using Projeto_MVC.FormataValores;
 using Projeto_MVC.Models;
 
 namespace Projeto_MVC.Controllers
@@ -58,6 +59,10 @@ namespace Projeto_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                proprietarioModel.Nome = FormatarTexto.FormataMaiusculo(proprietarioModel.Nome);
+                proprietarioModel.Rua = FormatarTexto.FormataMaiusculo(proprietarioModel.Rua);
+                proprietarioModel.Cidade = FormatarTexto.FormataMaiusculo(proprietarioModel.Cidade);
+
                 _context.Add(proprietarioModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,6 +102,10 @@ namespace Projeto_MVC.Controllers
             {
                 try
                 {
+                    proprietarioModel.Nome = FormatarTexto.FormataMaiusculo(proprietarioModel.Nome);
+                    proprietarioModel.Rua = FormatarTexto.FormataMaiusculo(proprietarioModel.Rua);
+                    proprietarioModel.Cidade = FormatarTexto.FormataMaiusculo(proprietarioModel.Cidade);
+
                     _context.Update(proprietarioModel);
                     await _context.SaveChangesAsync();
                 }

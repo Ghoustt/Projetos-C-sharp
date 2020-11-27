@@ -16,13 +16,13 @@ namespace Projeto_MVC.Models
         [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
         public string Nome { get; set; }
 
-        [Column(TypeName = "decimal(3,2)")]
+        [Column(TypeName = "decimal(2,2)")]
         public decimal Peso { get; set; }
 
-        [Column(TypeName = "decimal(3,2)")]
+        [Column(TypeName = "decimal(2,2)")]
         public decimal altura { get; set; }
 
-        [Column(TypeName = "decimal(3,2)")]
+        [Column(TypeName = "decimal(2,2)")]
         public decimal Comprimento { get; set; }
 
         [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]

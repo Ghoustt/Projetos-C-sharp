@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projeto_MVC.Data;
 using Projeto_MVC.Models;
+using Projeto_MVC.FormataValores;
 
 namespace Projeto_MVC.Controllers
 {
@@ -63,6 +64,9 @@ namespace Projeto_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                animalModel.Nome = FormatarTexto.FormataMaiusculo(animalModel.Nome);
+                animalModel.Pedigree = FormatarTexto.FormataMaiusculo(animalModel.Pedigree);              
+
                 _context.Add(animalModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -106,6 +110,9 @@ namespace Projeto_MVC.Controllers
             {
                 try
                 {
+                    animalModel.Nome = FormatarTexto.FormataMaiusculo(animalModel.Nome);
+                    animalModel.Pedigree = FormatarTexto.FormataMaiusculo(animalModel.Pedigree);
+
                     _context.Update(animalModel);
                     await _context.SaveChangesAsync();
                 }
