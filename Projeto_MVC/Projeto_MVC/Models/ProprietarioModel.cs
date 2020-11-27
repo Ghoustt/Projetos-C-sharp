@@ -16,7 +16,7 @@ namespace Projeto_MVC.Models
         [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
         public string Nome { get; set; }
 
-        [MaxLength(12, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
+        [MaxLength(13, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
         public string Rg { get; set; }
 
         [MaxLength(14, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]

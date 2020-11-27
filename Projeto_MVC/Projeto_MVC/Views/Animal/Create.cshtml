@@ -13,31 +13,6 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Peso" class="control-label"></label>
-                <input asp-for="Peso" class="form-control" />
-                <span asp-validation-for="Peso" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="altura" class="control-label"></label>
-                <input asp-for="altura" class="form-control" />
-                <span asp-validation-for="altura" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Comprimento" class="control-label"></label>
-                <input asp-for="Comprimento" class="form-control" />
-                <span asp-validation-for="Comprimento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pedigree" class="control-label"></label>
-                <input asp-for="Pedigree" class="form-control" />
-                <span asp-validation-for="Pedigree" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="EspecieId" class="control-label"></label>
                 <select asp-for="EspecieId" class="form-control" asp-items="ViewBag.EspecieId"></select>
             </div>
@@ -45,6 +20,33 @@
                 <label asp-for="ProprietarioId" class="control-label"></label>
                 <select asp-for="ProprietarioId" class="form-control" asp-items="ViewBag.ProprietarioId"></select>
             </div>
+
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Peso" class="control-label"></label>
+                <input asp-for="Peso" data-mask="000.00" class="form-control" />
+                <span asp-validation-for="Peso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="altura" class="control-label"></label>
+                <input asp-for="altura" data-mask="00.00" class="form-control" />
+                <span asp-validation-for="altura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comprimento" class="control-label"></label>
+                <input asp-for="Comprimento" data-mask="00.00" class="form-control" />
+                <span asp-validation-for="Comprimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pedigree" class="control-label"></label>
+                <input asp-for="Pedigree" class="form-control" />
+                <span asp-validation-for="Pedigree" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -55,6 +57,9 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="~/lib/jquery-mask-plugin/jquery.mask.js" type="text/javascript" asp-append-version="true"></script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

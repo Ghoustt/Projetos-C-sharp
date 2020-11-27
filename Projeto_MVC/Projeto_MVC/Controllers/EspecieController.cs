@@ -101,6 +101,7 @@ namespace Projeto_MVC.Controllers
                 try
                 {
                     especieModel.Nome = FormatarTexto.FormataMaiusculo(especieModel.Nome);
+
                     _context.Update(especieModel);
                     await _context.SaveChangesAsync();
                 }
