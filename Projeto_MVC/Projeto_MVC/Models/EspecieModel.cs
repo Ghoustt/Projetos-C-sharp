@@ -13,7 +13,9 @@ namespace Projeto_MVC.Models
         [Key]
         public int EspecieId { get; set; }
 
-        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
+        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(5, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Nome { get; set; }
     }
 }

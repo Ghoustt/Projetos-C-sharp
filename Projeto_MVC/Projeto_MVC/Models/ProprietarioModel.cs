@@ -13,19 +13,29 @@ namespace Projeto_MVC.Models
         [Key]
         public int ProprietarioId { get; set; }
 
-        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
+        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(3, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Nome { get; set; }
 
-        [MaxLength(13, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
-        public string Rg { get; set; }
+        [MaxLength(13, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(12, ErrorMessage = "O campo deve ter no mínimo {1} numeros")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
+        private string Rg { get; set; }
 
-        [MaxLength(14, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
-        public string Cpf { get; set; }
+        [MaxLength(14, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(14, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
+        private string Cpf { get; set; }
 
-        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
+        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(10, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Rua { get; set; }
 
-        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {0} caracteres")]
+        [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
+        [MinLength(10, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Cidade { get; set; }
     }
 }

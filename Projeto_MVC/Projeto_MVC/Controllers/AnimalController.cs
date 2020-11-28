@@ -62,6 +62,7 @@ namespace Projeto_MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("AnimalId,Nome,Peso,altura,Comprimento,Pedigree,EspecieId,ProprietarioId")] AnimalModel animalModel)
         {
+          
             if (ModelState.IsValid)
             {
                 animalModel.Nome = FormatarTexto.FormataMaiusculo(animalModel.Nome);
