@@ -6,14 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20201127192801_ModificacoesDosCamposDecimaisDeAnimalModel.cs" />
-    <Compile Remove="Migrations\20201127192801_ModificacoesDosCamposDecimaisDeAnimalModel.Designer.cs" />
-    <Compile Remove="Migrations\20201127193526_add-migration AtualizacaoDeUmCampoDecimaAnimalModes.cs" />
-    <Compile Remove="Migrations\20201127193526_add-migration AtualizacaoDeUmCampoDecimaAnimalModes.Designer.cs" />
-    <Compile Remove="Migrations\20201127193652_AtualizacaoDeUmCampoDecimaAnimalModes.cs" />
-    <Compile Remove="Migrations\20201127193652_AtualizacaoDeUmCampoDecimaAnimalModes.Designer.cs" />
-    <Compile Remove="Migrations\20201127194739_AjustandoCamposDecimais.cs" />
-    <Compile Remove="Migrations\20201127194739_AjustandoCamposDecimais.Designer.cs" />
+    <Compile Remove="Migrations\20201128185424_AtualizacaoDeCamposAnimal.cs" />
+    <Compile Remove="Migrations\20201128185424_AtualizacaoDeCamposAnimal.Designer.cs" />
+    <Compile Remove="Migrations\20201128185848_teste.cs" />
+    <Compile Remove="Migrations\20201128185848_teste.Designer.cs" />
   </ItemGroup>
 
 

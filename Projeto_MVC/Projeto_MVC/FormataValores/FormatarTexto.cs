@@ -10,6 +10,6 @@ namespace Projeto_MVC.FormataValores
         public static string FormataMaiusculo(string valor)
         {
             return valor.ToUpper().Trim();
-        }   
+        } 
     }
 }

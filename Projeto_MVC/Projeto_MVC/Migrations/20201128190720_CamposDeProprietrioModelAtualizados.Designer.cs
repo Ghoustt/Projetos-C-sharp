@@ -8,8 +8,8 @@ using Projeto_MVC.Data;
 namespace Projeto_MVC.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20201127232603_ConsertoDosCamposDecimaisDoBancoDeDados")]
-    partial class ConsertoDosCamposDecimaisDoBancoDeDados
+    [Migration("20201128190720_CamposDeProprietrioModelAtualizados")]
+    partial class CamposDeProprietrioModelAtualizados
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,14 +24,16 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<decimal>("Comprimento")
-                        .HasColumnType("decimal(4,2)");
+                        .HasColumnType("decimal(3,2)");
 
                     b.Property<int>("EspecieId");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Pedigree")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<decimal>("Peso")
@@ -40,7 +42,7 @@ namespace Projeto_MVC.Migrations
                     b.Property<int>("ProprietarioId");
 
                     b.Property<decimal>("altura")
-                        .HasColumnType("decimal(4,2)");
+                        .HasColumnType("decimal(3,2)");
 
                     b.HasKey("AnimalId");
 
@@ -57,6 +59,7 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("EspecieId");
@@ -70,18 +73,23 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Cidade")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Cpf")
+                        .IsRequired()
                         .HasMaxLength(14);
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Rg")
+                        .IsRequired()
                         .HasMaxLength(13);
 
                     b.Property<string>("Rua")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("ProprietarioId");

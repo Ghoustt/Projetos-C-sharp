@@ -14,27 +14,24 @@ namespace Projeto_MVC.Models
         public int AnimalId { get; set; }
 
         [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
-        [MinLength(3, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
-        [Required (ErrorMessage ="Este campo é obrigatório!")]
+        [MinLength(5, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
+        [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Nome { get; set; }
 
         [Column(TypeName = "decimal(5,2)")]
         [Required(ErrorMessage = "Este campo é obrigatório!")]
-        [MinLength(6, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
         public decimal Peso { get; set; }
 
         [Column(TypeName = "decimal(3,2)")]
         [Required(ErrorMessage = "Este campo é obrigatório!")]
-        [MinLength(4, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
         public decimal altura { get; set; }
 
         [Column(TypeName = "decimal(3,2)")]
         [Required(ErrorMessage = "Este campo é obrigatório!")]
-        [MinLength(4, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
         public decimal Comprimento { get; set; }
 
         [MaxLength(50, ErrorMessage = "O campo deve ter no máximo {1} caracteres")]
-        [MinLength(5, ErrorMessage="O campo deve ter no mínimo {1} caracteres")]
+        [MinLength(5, ErrorMessage = "O campo deve ter no mínimo {1} caracteres")]
         [Required(ErrorMessage = "Este campo é obrigatório!")]
         public string Pedigree { get; set; }
 

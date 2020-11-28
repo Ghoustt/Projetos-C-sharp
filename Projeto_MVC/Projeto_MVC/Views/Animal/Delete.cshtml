@@ -1,12 +1,12 @@
 ﻿@model Projeto_MVC.Models.AnimalModel
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar Animal";
 }
 
-<h1>Deletar Animal</h1>
+<h1>Deletar</h1>
 
-<h3>Tem certeza que dezeja deletar esse registro?</h3>
+<h3>Tem certeza que deseja deletar este registro?</h3>
 <div>
     <h4>Animal</h4>
     <hr />
@@ -57,7 +57,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="AnimalId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Voltar Para a Lista</a>
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para a lista</a>
     </form>
 </div>

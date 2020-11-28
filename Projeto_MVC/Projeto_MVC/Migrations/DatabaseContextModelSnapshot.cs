@@ -57,6 +57,7 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("EspecieId");
@@ -70,18 +71,23 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Cidade")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Cpf")
+                        .IsRequired()
                         .HasMaxLength(14);
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Rg")
+                        .IsRequired()
                         .HasMaxLength(13);
 
                     b.Property<string>("Rua")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("ProprietarioId");

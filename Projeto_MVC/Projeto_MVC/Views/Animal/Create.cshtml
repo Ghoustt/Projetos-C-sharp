@@ -1,10 +1,10 @@
 ﻿@model Projeto_MVC.Models.AnimalModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Animal";
 }
 
-<h1>Create</h1>
+<h1>Criar</h1>
 
 <h4>Animal</h4>
 <hr />
@@ -20,7 +20,6 @@
                 <label asp-for="ProprietarioId" class="control-label"></label>
                 <select asp-for="ProprietarioId" class="form-control" asp-items="ViewBag.ProprietarioId"></select>
             </div>
-
             <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
@@ -33,12 +32,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="altura" class="control-label"></label>
-                <input asp-for="altura" data-mask="00.00" class="form-control" />
+                <input asp-for="altura" data-mask="0.00" class="form-control" />
                 <span asp-validation-for="altura" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Comprimento" class="control-label"></label>
-                <input asp-for="Comprimento" data-mask="00.00" class="form-control" />
+                <input asp-for="Comprimento" data-mask="0.00" class="form-control" />
                 <span asp-validation-for="Comprimento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -48,19 +47,19 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Voltar Para a Lista</a>
+    <a asp-action="Index">Voltar para a lista</a>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
 <script src="~/lib/jquery-mask-plugin/jquery.mask.js" type="text/javascript" asp-append-version="true"></script>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -8,8 +8,8 @@ using Projeto_MVC.Data;
 namespace Projeto_MVC.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20201127233923_DecimaisAtualizados_27-11-2020")]
-    partial class DecimaisAtualizados_27112020
+    [Migration("20201128030955_AtualizacaoDosCamposDecimais")]
+    partial class AtualizacaoDosCamposDecimais
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -59,6 +59,7 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("EspecieId");
@@ -72,18 +73,23 @@ namespace Projeto_MVC.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Cidade")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Cpf")
+                        .IsRequired()
                         .HasMaxLength(14);
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("Rg")
-                        .HasMaxLength(13);
+                        .IsRequired()
+                        .HasMaxLength(12);
 
                     b.Property<string>("Rua")
+                        .IsRequired()
                         .HasMaxLength(50);
 
                     b.HasKey("ProprietarioId");
