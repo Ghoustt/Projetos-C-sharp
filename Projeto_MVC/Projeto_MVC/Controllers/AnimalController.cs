@@ -75,7 +75,6 @@ namespace Projeto_MVC.Controllers
             ViewData["ProprietarioId"] = new SelectList(_context.ProprietarioModel, "ProprietarioId", "ProprietarioId", animalModel.ProprietarioId);
             return View(animalModel);
         }
-
         // GET: Animal/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
